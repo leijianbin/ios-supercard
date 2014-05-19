@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		907D58EA192A8323001E80EF /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D58DB192A8323001E80EF /* Card.m */; };
+		907D58EB192A8323001E80EF /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D58DD192A8323001E80EF /* CardMatchingGame.m */; };
+		907D58EC192A8323001E80EF /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D58DF192A8323001E80EF /* Deck.m */; };
+		907D58ED192A8323001E80EF /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D58E1192A8323001E80EF /* PlayingCard.m */; };
+		907D58EE192A8323001E80EF /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D58E3192A8323001E80EF /* PlayingCardDeck.m */; };
+		907D58EF192A8323001E80EF /* SetGameCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D58E5192A8323001E80EF /* SetGameCard.m */; };
+		907D58F0192A8323001E80EF /* SetGameCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D58E7192A8323001E80EF /* SetGameCardDeck.m */; };
+		907D58F1192A8323001E80EF /* SetGameCardGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D58E9192A8323001E80EF /* SetGameCardGame.m */; };
+		90F8F16F192140CF002AF5DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F8F16E192140CF002AF5DC /* Foundation.framework */; };
+		90F8F171192140CF002AF5DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F8F170192140CF002AF5DC /* CoreGraphics.framework */; };
+		90F8F173192140CF002AF5DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F8F172192140CF002AF5DC /* UIKit.framework */; };
+		90F8F179192140CF002AF5DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90F8F177192140CF002AF5DC /* InfoPlist.strings */; };
+		90F8F17B192140CF002AF5DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F17A192140CF002AF5DC /* main.m */; };
+		90F8F17F192140CF002AF5DC /* SuperCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F17E192140CF002AF5DC /* SuperCardAppDelegate.m */; };
+		90F8F182192140CF002AF5DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F8F180192140CF002AF5DC /* Main.storyboard */; };
+		90F8F185192140CF002AF5DC /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F184192140CF002AF5DC /* SuperCardViewController.m */; };
+		90F8F187192140CF002AF5DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F8F186192140CF002AF5DC /* Images.xcassets */; };
+		90F8F18E192140CF002AF5DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F8F18D192140CF002AF5DC /* XCTest.framework */; };
+		90F8F18F192140CF002AF5DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F8F16E192140CF002AF5DC /* Foundation.framework */; };
+		90F8F190192140CF002AF5DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F8F172192140CF002AF5DC /* UIKit.framework */; };
+		90F8F198192140CF002AF5DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90F8F196192140CF002AF5DC /* InfoPlist.strings */; };
+		90F8F19A192140CF002AF5DC /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F199192140CF002AF5DC /* SuperCardTests.m */; };
+		90F8F1A5192185DA002AF5DC /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F1A4192185DA002AF5DC /* PlayingCardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90F8F191192140CF002AF5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F8F163192140CF002AF5DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F8F16A192140CF002AF5DC;
+			remoteInfo = SuperCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		907D58D8192A82E9001E80EF /* PlayingMatchCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingMatchCardViewController.h; sourceTree = "<group>"; };
+		907D58DA192A8323001E80EF /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		907D58DB192A8323001E80EF /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		907D58DC192A8323001E80EF /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		907D58DD192A8323001E80EF /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		907D58DE192A8323001E80EF /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		907D58DF192A8323001E80EF /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		907D58E0192A8323001E80EF /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		907D58E1192A8323001E80EF /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		907D58E2192A8323001E80EF /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		907D58E3192A8323001E80EF /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		907D58E4192A8323001E80EF /* SetGameCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGameCard.h; sourceTree = "<group>"; };
+		907D58E5192A8323001E80EF /* SetGameCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGameCard.m; sourceTree = "<group>"; };
+		907D58E6192A8323001E80EF /* SetGameCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGameCardDeck.h; sourceTree = "<group>"; };
+		907D58E7192A8323001E80EF /* SetGameCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGameCardDeck.m; sourceTree = "<group>"; };
+		907D58E8192A8323001E80EF /* SetGameCardGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGameCardGame.h; sourceTree = "<group>"; };
+		907D58E9192A8323001E80EF /* SetGameCardGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGameCardGame.m; sourceTree = "<group>"; };
+		90F8F16B192140CF002AF5DC /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F8F16E192140CF002AF5DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90F8F170192140CF002AF5DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90F8F172192140CF002AF5DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90F8F176192140CF002AF5DC /* SuperCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCard-Info.plist"; sourceTree = "<group>"; };
+		90F8F178192140CF002AF5DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90F8F17A192140CF002AF5DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90F8F17C192140CF002AF5DC /* SuperCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperCard-Prefix.pch"; sourceTree = "<group>"; };
+		90F8F17D192140CF002AF5DC /* SuperCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardAppDelegate.h; sourceTree = "<group>"; };
+		90F8F17E192140CF002AF5DC /* SuperCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardAppDelegate.m; sourceTree = "<group>"; };
+		90F8F181192140CF002AF5DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90F8F183192140CF002AF5DC /* SuperCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardViewController.h; sourceTree = "<group>"; };
+		90F8F184192140CF002AF5DC /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
+		90F8F186192140CF002AF5DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		90F8F18C192140CF002AF5DC /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F8F18D192140CF002AF5DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		90F8F195192140CF002AF5DC /* SuperCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCardTests-Info.plist"; sourceTree = "<group>"; };
+		90F8F197192140CF002AF5DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90F8F199192140CF002AF5DC /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		90F8F1A3192185DA002AF5DC /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		90F8F1A4192185DA002AF5DC /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90F8F168192140CF002AF5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F8F171192140CF002AF5DC /* CoreGraphics.framework in Frameworks */,
+				90F8F173192140CF002AF5DC /* UIKit.framework in Frameworks */,
+				90F8F16F192140CF002AF5DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F8F189192140CF002AF5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F8F18E192140CF002AF5DC /* XCTest.framework in Frameworks */,
+				90F8F190192140CF002AF5DC /* UIKit.framework in Frameworks */,
+				90F8F18F192140CF002AF5DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		907D58D9192A8323001E80EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				907D58DA192A8323001E80EF /* Card.h */,
+				907D58DB192A8323001E80EF /* Card.m */,
+				907D58DC192A8323001E80EF /* CardMatchingGame.h */,
+				907D58DD192A8323001E80EF /* CardMatchingGame.m */,
+				907D58DE192A8323001E80EF /* Deck.h */,
+				907D58DF192A8323001E80EF /* Deck.m */,
+				907D58E0192A8323001E80EF /* PlayingCard.h */,
+				907D58E1192A8323001E80EF /* PlayingCard.m */,
+				907D58E2192A8323001E80EF /* PlayingCardDeck.h */,
+				907D58E3192A8323001E80EF /* PlayingCardDeck.m */,
+				907D58E4192A8323001E80EF /* SetGameCard.h */,
+				907D58E5192A8323001E80EF /* SetGameCard.m */,
+				907D58E6192A8323001E80EF /* SetGameCardDeck.h */,
+				907D58E7192A8323001E80EF /* SetGameCardDeck.m */,
+				907D58E8192A8323001E80EF /* SetGameCardGame.h */,
+				907D58E9192A8323001E80EF /* SetGameCardGame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90F8F162192140CF002AF5DC = {
+			isa = PBXGroup;
+			children = (
+				90F8F174192140CF002AF5DC /* SuperCard */,
+				90F8F193192140CF002AF5DC /* SuperCardTests */,
+				90F8F16D192140CF002AF5DC /* Frameworks */,
+				90F8F16C192140CF002AF5DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90F8F16C192140CF002AF5DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90F8F16B192140CF002AF5DC /* SuperCard.app */,
+				90F8F18C192140CF002AF5DC /* SuperCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90F8F16D192140CF002AF5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90F8F16E192140CF002AF5DC /* Foundation.framework */,
+				90F8F170192140CF002AF5DC /* CoreGraphics.framework */,
+				90F8F172192140CF002AF5DC /* UIKit.framework */,
+				90F8F18D192140CF002AF5DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90F8F174192140CF002AF5DC /* SuperCard */ = {
+			isa = PBXGroup;
+			children = (
+				907D58D8192A82E9001E80EF /* PlayingMatchCardViewController.h */,
+				90F8F180192140CF002AF5DC /* Main.storyboard */,
+				90F8F1A3192185DA002AF5DC /* PlayingCardView.h */,
+				90F8F1A4192185DA002AF5DC /* PlayingCardView.m */,
+				90F8F183192140CF002AF5DC /* SuperCardViewController.h */,
+				90F8F184192140CF002AF5DC /* SuperCardViewController.m */,
+				90F8F186192140CF002AF5DC /* Images.xcassets */,
+				907D58D9192A8323001E80EF /* Model */,
+				90F8F175192140CF002AF5DC /* Supporting Files */,
+			);
+			path = SuperCard;
+			sourceTree = "<group>";
+		};
+		90F8F175192140CF002AF5DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F8F17D192140CF002AF5DC /* SuperCardAppDelegate.h */,
+				90F8F17E192140CF002AF5DC /* SuperCardAppDelegate.m */,
+				90F8F176192140CF002AF5DC /* SuperCard-Info.plist */,
+				90F8F177192140CF002AF5DC /* InfoPlist.strings */,
+				90F8F17A192140CF002AF5DC /* main.m */,
+				90F8F17C192140CF002AF5DC /* SuperCard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90F8F193192140CF002AF5DC /* SuperCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				90F8F199192140CF002AF5DC /* SuperCardTests.m */,
+				90F8F194192140CF002AF5DC /* Supporting Files */,
+			);
+			path = SuperCardTests;
+			sourceTree = "<group>";
+		};
+		90F8F194192140CF002AF5DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F8F195192140CF002AF5DC /* SuperCardTests-Info.plist */,
+				90F8F196192140CF002AF5DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90F8F16A192140CF002AF5DC /* SuperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F8F19D192140CF002AF5DC /* Build configuration list for PBXNativeTarget "SuperCard" */;
+			buildPhases = (
+				90F8F167192140CF002AF5DC /* Sources */,
+				90F8F168192140CF002AF5DC /* Frameworks */,
+				90F8F169192140CF002AF5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCard;
+			productName = SuperCard;
+			productReference = 90F8F16B192140CF002AF5DC /* SuperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90F8F18B192140CF002AF5DC /* SuperCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F8F1A0192140CF002AF5DC /* Build configuration list for PBXNativeTarget "SuperCardTests" */;
+			buildPhases = (
+				90F8F188192140CF002AF5DC /* Sources */,
+				90F8F189192140CF002AF5DC /* Frameworks */,
+				90F8F18A192140CF002AF5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F8F192192140CF002AF5DC /* PBXTargetDependency */,
+			);
+			name = SuperCardTests;
+			productName = SuperCardTests;
+			productReference = 90F8F18C192140CF002AF5DC /* SuperCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90F8F163192140CF002AF5DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SuperCard;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ou;
+				TargetAttributes = {
+					90F8F18B192140CF002AF5DC = {
+						TestTargetID = 90F8F16A192140CF002AF5DC;
+					};
+				};
+			};
+			buildConfigurationList = 90F8F166192140CF002AF5DC /* Build configuration list for PBXProject "SuperCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90F8F162192140CF002AF5DC;
+			productRefGroup = 90F8F16C192140CF002AF5DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90F8F16A192140CF002AF5DC /* SuperCard */,
+				90F8F18B192140CF002AF5DC /* SuperCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90F8F169192140CF002AF5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F8F187192140CF002AF5DC /* Images.xcassets in Resources */,
+				90F8F179192140CF002AF5DC /* InfoPlist.strings in Resources */,
+				90F8F182192140CF002AF5DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F8F18A192140CF002AF5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F8F198192140CF002AF5DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90F8F167192140CF002AF5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907D58EB192A8323001E80EF /* CardMatchingGame.m in Sources */,
+				907D58EE192A8323001E80EF /* PlayingCardDeck.m in Sources */,
+				907D58F1192A8323001E80EF /* SetGameCardGame.m in Sources */,
+				907D58EC192A8323001E80EF /* Deck.m in Sources */,
+				907D58EA192A8323001E80EF /* Card.m in Sources */,
+				90F8F17F192140CF002AF5DC /* SuperCardAppDelegate.m in Sources */,
+				90F8F1A5192185DA002AF5DC /* PlayingCardView.m in Sources */,
+				907D58EF192A8323001E80EF /* SetGameCard.m in Sources */,
+				90F8F17B192140CF002AF5DC /* main.m in Sources */,
+				907D58F0192A8323001E80EF /* SetGameCardDeck.m in Sources */,
+				907D58ED192A8323001E80EF /* PlayingCard.m in Sources */,
+				90F8F185192140CF002AF5DC /* SuperCardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F8F188192140CF002AF5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F8F19A192140CF002AF5DC /* SuperCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90F8F192192140CF002AF5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90F8F16A192140CF002AF5DC /* SuperCard */;
+			targetProxy = 90F8F191192140CF002AF5DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90F8F177192140CF002AF5DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F8F178192140CF002AF5DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90F8F180192140CF002AF5DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F8F181192140CF002AF5DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90F8F196192140CF002AF5DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F8F197192140CF002AF5DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90F8F19B192140CF002AF5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90F8F19C192140CF002AF5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90F8F19E192140CF002AF5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90F8F19F192140CF002AF5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		90F8F1A1192140CF002AF5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperCard.app/SuperCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SuperCardTests/SuperCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		90F8F1A2192140CF002AF5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperCard.app/SuperCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCardTests/SuperCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90F8F166192140CF002AF5DC /* Build configuration list for PBXProject "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F8F19B192140CF002AF5DC /* Debug */,
+				90F8F19C192140CF002AF5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F8F19D192140CF002AF5DC /* Build configuration list for PBXNativeTarget "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F8F19E192140CF002AF5DC /* Debug */,
+				90F8F19F192140CF002AF5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F8F1A0192140CF002AF5DC /* Build configuration list for PBXNativeTarget "SuperCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F8F1A1192140CF002AF5DC /* Debug */,
+				90F8F1A2192140CF002AF5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90F8F163192140CF002AF5DC /* Project object */;
+}
